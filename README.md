@@ -1,6 +1,7 @@
 # smug-core
 
-Smug-Core Macros Underlie Gratuitous Coding Of Recursive Expressions
+
+Smug-Core Macros Underlie Gratuitous Construction Of Recursive Expressions
 
 ## Description
 
