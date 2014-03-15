@@ -7,9 +7,8 @@ Smug-Core Macros Underlie Gratuitous Coding Of Recursive Expressions
 smug.core (pronounced smug-core, *without* the "dot") demonstrates the
 superiority of Clojure (and perhaps some other true Lisps) by extending the
 language in ways that are impossible in other, almost certainly younger and more
-naive languages or language families. This, it hardly needs be said, although
-truth be told it bears repeating, is possible because Lisp give you, the
-programmer, access to the Whole Language.
+naive languages or language families. This, it hardly needs be repeated, is
+made possible by the fact that Lisp give you the Whole Language.
 
 ## Usage
 
