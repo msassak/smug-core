@@ -6,9 +6,11 @@ Smug-Core Macros Underlie Gratuitous Coding Of Recursive Expressions
 
 smug.core (pronounced smug-core, *without* the "dot") demonstrates the
 superiority of Clojure (and perhaps some other true Lisps) by extending the
-language in ways that are impossible in other, almost certainly younger and more
-naive languages or language families. This, it hardly needs be repeated, is
-made possible by the fact that Lisp give you the Whole Language.
+language in ways that are impossible in other, almost certainly younger and
+*definitely* inferior languages and language families. This, it hardly needs to
+be repeated, is made possible by the fact that, unlike other languages, Lisp
+does not restrict the programmer artificially but instead offers the Whole
+Language to work with. But I'm sure you knew that already.
 
 ## Usage
 
@@ -28,7 +30,7 @@ Now we may write Clojure the way Paul Graham intended:
       (condescend (inc i) (+ i acc)))))
 ```
 
-Now I know what you're thinking. I could have just used `(apply + (range n m))`
+I know what you're thinking. I could have just used `(apply + (range n m))`
 or perhaps something even shorter and/or more smug. I don't think I have to
 point out to you that you definitely get the point.
 
@@ -46,7 +48,7 @@ you can feel better by using `sigh` rather than `prn`:
 (sigh "I'd rather be using EDN." json)
 ```
 
-Also, for when someone else's code has bugs in it, smug.core has an improved
+Finally, when someone else's code has bugs in it, smug.core offers an improved
 `assert` called `actually`. It's easy to use:
 
 ```
