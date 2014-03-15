@@ -1,6 +1,5 @@
 # smug-core
 
-
 Smug-Core Macros Underlie Gratuitous Construction Of Recursive Expressions
 
 ## Description
@@ -42,7 +41,7 @@ smug.core also includes an intention-revealing version of `let`:
   (+ 1 2))
 ```
 
-If you really must see what the value of somethign at some point in your code,
+If you really must see what the value of something at some point in your code,
 you can feel better by using `sigh` rather than `prn`:
 
 ```
